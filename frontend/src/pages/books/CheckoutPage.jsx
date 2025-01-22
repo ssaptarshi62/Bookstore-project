@@ -60,7 +60,7 @@ const CheckoutPage = () => {
     return (
       <div className="min-h-screen flex items-center justify-center">
         <h2 className="text-xl font-semibold text-gray-600">
-          Your cart is empty. <Link to="/" className="text-blue-500 underline">Continue shopping</Link>.
+          Your cart is empty. <Link to="/" className="text-green-500 underline">Continue shopping</Link>.
         </h2>
       </div>
     )
@@ -221,7 +221,7 @@ const CheckoutPage = () => {
                       <button
                         disabled={!isChecked}
                         type="submit"
-                        className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
+                        className="bg-green-500 hover:bg-green-700 text-white font-bold py-2 px-4 rounded"
                       >
                         Place an Order
                       </button>

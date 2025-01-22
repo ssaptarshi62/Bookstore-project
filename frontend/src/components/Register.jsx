@@ -66,16 +66,16 @@ const Register = () => {
                 message && <p className='text-red-500 text-xs italic mb-3'>{message}</p>
             }
             <div>
-                <button className='bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-8 rounded focus:outline-none'>Register</button>
+                <button className='bg-green-500 hover:bg-green-700 text-white font-bold py-2 px-8 rounded focus:outline-none'>Register</button>
             </div>
         </form>
-        <p className='align-baseline font-medium mt-4 text-sm'>Have an account? Please <Link to="/login" className='text-blue-500 hover:text-blue-700'>Login</Link></p>
+        <p className='align-baseline font-medium mt-4 text-sm'>Have an account? Please <Link to="/login" className='text-green-500 hover:text-green-700'>Login</Link></p>
 
         {/* google sign in */}
         <div className='mt-4'>
             <button 
             onClick={handleGoogleSignIn}
-            className='w-full flex flex-wrap gap-1 items-center justify-center bg-secondary hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none'>
+            className='w-full flex flex-wrap gap-1 items-center justify-center bg-secondary hover:bg-green-700 text-white font-bold py-2 px-4 rounded focus:outline-none'>
             <FaGoogle  className='mr-2'/>
             Sign in with Google
             </button>

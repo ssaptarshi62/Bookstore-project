@@ -5,7 +5,7 @@ import {
   HiOutlineHeart,
   HiOutlineShoppingCart,
 } from "react-icons/hi2";
-import { IoSearchOutline } from "react-icons/io5";
+// import { IoSearchOutline } from "react-icons/io5";
 import { HiOutlineUser } from "react-icons/hi";
 
 import avatarImg from "../assets/avatar.png";
@@ -41,13 +41,13 @@ const handleLogout = () =>{
 
           {/* search input */}
           <div className="relative sm:w-72 space-x-1">
-            <IoSearchOutline className="absolute inline-block left-3 inset-y-2" />
+            {/* <IoSearchOutline className="absolute inline-block left-3 inset-y-2" /> */}
 
-            <input
+            {/* <input
               type="text"
               placeholder="Search here"
               className="bg-[#EAEAEA] w-full py-1 md:px-8 px-6 rounded-md focus:outline-none"
-            />
+            /> */}
           </div>
         </div>
 

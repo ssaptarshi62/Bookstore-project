@@ -7,8 +7,8 @@ export default {
   theme: {
     extend: {
       colors: {
-        'primary': '#FFCE1A',
-        'secondary' : "#0D0842",
+        'primary': '#84cc16',
+        'secondary' : "#4d7c0f",
         'blackBG': '#F3F3F3',
         'Favorite': '#FF5841'
       }, 

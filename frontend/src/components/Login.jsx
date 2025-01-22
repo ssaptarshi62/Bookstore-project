@@ -75,7 +75,7 @@ import { useAuth } from '../context/AuthContext';
                 
             <div className="flex flex-wrap space-y-2.5 items-center justify-between">
                 <button
-                    className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-1 px-4 rounded focus:outline-none focus:shadow-outline"
+                    className="bg-green-500 hover:bg-green-700 text-white font-bold py-1 px-4 rounded focus:outline-none focus:shadow-outline"
                     type="submit"
                 >
                     Login
@@ -84,11 +84,11 @@ import { useAuth } from '../context/AuthContext';
         </form>
         <p className="inline-block align-baseline font-medium mt-4 text-sm ">
             Haven't an account? Please
-            <Link to="/register" className='text-blue-500 hover:text-blue-800'> Register</Link>
+            <Link to="/register" className='text-green-500 hover:text-green-800'> Register</Link>
         </p>
         <div className="mt-4">
             <button
-                className="w-full flex flex-wrap gap-1 items-center justify-center bg-secondary hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline"
+                className="w-full flex flex-wrap gap-1 items-center justify-center bg-secondary hover:bg-green-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline"
                 onClick={handleGoogleSignIn}
             >
                 <FaGoogle className="mr-2" />
